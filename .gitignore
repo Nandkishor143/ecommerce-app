@@ -1,0 +1,38 @@
+# Logs
+ecommerce/logs
+ecommerce/*.log
+ecommerce/npm-debug.log*
+ecommerce/yarn-debug.log*
+ecommerce/yarn-error.log*
+ecommerce/pnpm-debug.log*
+ecommerce/lerna-debug.log*
+
+ecommerce/node_modules
+ecommerce/dist
+ecommerce/dist-ssr
+ecommerce/*.local
+
+# Editor directories and files
+ecommerce/.vscode/*
+ecommerce/!.vscode/extensions.json
+ecommerce/.idea
+ecommerce/.DS_Store
+ecommerce/*.suo
+ecommerce/*.ntvs*
+ecommerce/*.njsproj
+ecommerce/*.sln
+ecommerce/*.sw?
+
+// node_modules
+ecommerce/node_modules
+ecommerceApi/node_modules
+
+
+
+// environment variables
+ecommerceApi/.env
+.DS_Store
+
+// package.lock
+ecommerce/package-lock.json
+ecommerceApi/package-lock.json
